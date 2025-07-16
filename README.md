@@ -53,7 +53,22 @@ bash
 Copy
 Edit
 python bruteforce_ftp.py
-Digite:
+Digite:Host: 127.0.0.1 (ou o IP da VM com FTP ativo)
+
+Usuário: ftpuser
+
+Caminho do arquivo: senhas.txt
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+ Ambiente para Testar
+Crie uma VM com Metasploitable2 ou instale vsftpd em uma VM Linux:
+
+bash
+Copy
+Edit
+sudo apt install vsftpd
+sudo systemctl start vsftpd
 
 Host: 127.0.0.1 (ou o IP da VM com FTP ativo)
 
